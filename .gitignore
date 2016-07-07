@@ -25,6 +25,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+bower_components/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -102,4 +103,10 @@ webpack-stats.json
 # Compass/SASS
 .sass-cache
 
+# PyCharm
+.idea/
+
+# Bower build products
+django_sb_admin/static/js/_bower.js
+django_sb_admin/static/js/_bower.css
 
