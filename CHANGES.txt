@@ -1,6 +1,8 @@
 Django SB Admin ChangeLog
+ssteinerX fork started July, 2016, not yet published to PyPy
+Available work in progress at: https://github.com/ssteinerx/django-sb-admin
 
-0.4.0 -- July 30, 2016
+0.4.0 -- July 30, 2016 -- unreleased
 
 - ssteinerX fork of project
 

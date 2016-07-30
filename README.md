@@ -35,33 +35,33 @@ Installation
 
 1. Install an app::
 
-    pip install django-sb-admin
+    pip install django-sb-admin_ssx
 
-2. Add "django_sb_admin" to your INSTALLED_APPS setting like this::
+2. Add "django_sb_admin_ssx" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = (
         ...
-        'django_sb_admin',
+        'django_sb_admin_ssx',
     )
 
 3. If you want to see an example app, add following to your urls file::
 
-    import django_sb_admin.urls
+    import django_sb_admin_ssx.urls
 
-    url(r'^django-sb-admin/', include(django_sb_admin.urls.urlpatterns)),
+    url(r'^django-sb-admin_ssx/', include(django_sb_admin_ssx.urls.urlpatterns)),
 
 Usage
 -----
 
 1. Copy following blank template::
 
-    django_sb_admin/sb_admin_blank.html
+    django_sb_admin_ssx/sb_admin_blank.html
 
 or:
 
 2. Extend a base template::
 
-    {% extends "django_sb_admin/base.html" %}
+    {% extends "django_sb_admin_ssx/base.html" %}
 
 and then:
 
@@ -76,7 +76,7 @@ and then:
 To use included login page put following in your **urls.py**::
 
     url(r'^accounts/login/$', auth_views.login,
-        {'template_name': 'django_sb_admin/examples/login.html'}),
+        {'template_name': 'django_sb_admin_ssx/examples/login.html'}),
 
 
 Conventions

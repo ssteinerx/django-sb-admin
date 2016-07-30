@@ -107,6 +107,6 @@ webpack-stats.json
 .idea/
 
 # Bower build products
-django_sb_admin/static/js/_bower.js
-django_sb_admin/static/js/_bower.css
+django_sb_admin_ssx/static/js/_bower.js
+django_sb_admin_ssx/static/js/_bower.css
 
