@@ -1,0 +1,13 @@
+{
+  "name": "django-sb-admin",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-sass": "^1.2.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
