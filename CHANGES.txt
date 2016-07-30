@@ -1,5 +1,9 @@
 Django SB Admin ChangeLog
 
+0.4.0 -- July 30, 2016
+
+- ssteinerX fork of project
+
 0.3.6
 
  - Fixed login view (@jmhobrien)
@@ -19,13 +23,13 @@ Django SB Admin ChangeLog
 
 0.3.2
 
- - Fixed few typos 
+ - Fixed few typos
 
 0.3.1
 
  - Improved login page to make it work with django
  - Fixed typo in Subheading blank page
- 
+
 
 0.3
 
@@ -35,7 +39,7 @@ Django SB Admin ChangeLog
  - Fixed charts in RTL Dashboard
  - New icon for the start
  - Added blank page
- 
+
 0.2
 
  - All templates implemented

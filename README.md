@@ -1,14 +1,18 @@
 ===============
-django-sb-admin
-===============
+django-sb-admin-ssx
+===================
 
 Introduction
 ------------
+
+I (ssteinerX) added the -ssx suffix to distinguish this from the original
+Django port refrenced below.
 
 Django SB Admin is a resuable Django app which provides a Bootstrap 3 SB Admin dashboard theme.
 
 Forked by ssteinerX from:
 
+    https://github.com/bluszcz/django-sb-admin
     http://startbootstrap.com/template-overviews/sb-admin/
 
 SB Admin is a free to download Bootstrap admin template. This template uses the
@@ -22,7 +26,7 @@ I (ssteinerX) have picked up development of this for a project I'm currently wor
 
     https://github.com/ssteinerx/django-sb-admin
 
-I will also be upgrading bootstrap etc. and rearranging a bit for improved future updates (like not just copying bootstrap in, but pulling it into its own subrepository etc.).
+I will also be upgrading bootstrap etc. and rearranging a bit for improved future updates with Bower and Gulp instead of error prone manual copying into the project.
 
 Please feel free to fork, submit pull requests, or add issues here.
 
