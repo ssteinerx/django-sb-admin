@@ -8,8 +8,8 @@
     <meta name="author" content="{% block sb_admin_author %}{% endblock %}">
     <title>{% block title %}Django SB Admin -Bootstrap Admin Template{% endblock %}</title>
 
-    <!-- Bootstrap Core CSS -->
-    {% block sb_admin_bootstrap_css %}<link href="{% static "css/bootstrap.min.css"%}" rel="stylesheet">{% endblock sb_admin_bootstrap_css %}
+    <!-- All of our CSS in one, properly ordered chunk -->
+    {% block sb_admin_bootstrap_css %}<link href="{% static "css/_bower.css"%}" rel="stylesheet">{% endblock sb_admin_bootstrap_css %}
 
     <!-- Custom CSS -->
     {% block sb_admin_css %}<link href="{% static "css/sb-admin.css"%}" rel="stylesheet">{% endblock sb_admin_css %}
@@ -20,7 +20,7 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
@@ -253,7 +253,7 @@
                         <p class="">You can find list of all awesome icons <a href="https://fortawesome.github.io/Font-Awesome/icons/">here</a>.
                     </div>
                 </div>
-                {% include "django_sb_admin/login.html" %}               
+                {% include "django_sb_admin/login.html" %}
                 {% endblock sb_admin_content %}
 
             </div>
@@ -266,10 +266,13 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="{% static "js/jquery.js"%}"></script>
+
+    <!-- <script src="{% static "js/jquery.js"%}"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{% static "js/bootstrap.min.js"%}"></script>
+    <!-- <script src="{% static "js/bootstrap.min.js"%}"></script> -->
+
+    <script src="{% static "js/_bower.js" %}"></script>
 
     {% block sb_admin_custom_js %}{% endblock sb_admin_custom_js %}
 

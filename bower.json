@@ -1,0 +1,36 @@
+{
+  "name": "django-sb-admin",
+
+  "homepage": "https://github.com/ssteinerx/django-sb-admin",
+
+  "authors": [
+    "Steve Steiner <ssteinerX@gmail.com>"
+  ],
+
+  "description": "Bower file for pulling required css/js components for django-sb-admin.",
+
+  "main": "",
+
+  "license": "MIT",
+
+  "private": true,
+
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+
+  "resolutions": {
+    "font-awesome": "^4.6.3"
+  },
+
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "flot": "git@github.com:ssteinerx/flot.git#^0.8.4",
+    "startbootstrap-sb-admin-2": "^1.0.8"
+  }
+}

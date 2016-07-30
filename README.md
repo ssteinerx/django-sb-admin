@@ -12,22 +12,19 @@ Forked by ssteinerX from:
     http://startbootstrap.com/template-overviews/sb-admin/
 
 SB Admin is a free to download Bootstrap admin template. This template uses the
-default Bootstrap 3 styles along with a variety of powerful jQuery plugins to 
+default Bootstrap 3 styles along with a variety of powerful jQuery plugins to
 create a powerful framework for creating admin panels, web apps, or back-end dashboards.
 
 Note: July 6, 2016
 ------------------
 
-I (ssteinerX) have picked up development of this for a project I'm currently working on.  I'll submit pull requests to the original project to see whether bluszcz is interested in continuing development, but since it's not been touched since November 2015, I'm not sure whether he'll be interested in my changes.  I will make sure to make atomic pull requests for little bug fixes/deprecation removals.
+I (ssteinerX) have picked up development of this for a project I'm currently working on.  I'll submit pull requests to the original project to see whether bluszcz is interested in continuing development, but since it's not been touched since November 2015, I'm not sure whether he'll be interested in my changes.  I will make sure to make atomic pull requests for little bug fixes and/or deprecation removals, but my focus is on Django 1.10 so, without any automated tests at this point, I'm not particularly worried about backwards compatibility.
 
     https://github.com/ssteinerx/django-sb-admin
-
-I am using Django 1.10 beta and am removing deprecated (now removed) items as I go.
 
 I will also be upgrading bootstrap etc. and rearranging a bit for improved future updates (like not just copying bootstrap in, but pulling it into its own subrepository etc.).
 
 Please feel free to fork, submit pull requests, or add issues here.
-
 
 Installation
 ------------
@@ -44,9 +41,9 @@ Installation
     )
 
 3. If you want to see an example app, add following to your urls file::
-    
+
     import django_sb_admin.urls
-    
+
     url(r'^django-sb-admin/', include(django_sb_admin.urls.urlpatterns)),
 
 Usage
@@ -74,7 +71,7 @@ and then:
 
 To use included login page put following in your **urls.py**::
 
-    url(r'^accounts/login/$', auth_views.login, 
+    url(r'^accounts/login/$', auth_views.login,
         {'template_name': 'django_sb_admin/examples/login.html'}),
 
 
@@ -84,7 +81,7 @@ Conventions
 Template blocks
 ===============
 
-* Names  of blocks start with *sb_admin* 
+* Names  of blocks start with *sb_admin*
 
 Extras
 ------
@@ -109,5 +106,5 @@ Copyright 2015 Rafal Zawadzki
     See the License for the specific language governing permissions and
     limitations under the License.
 
-SB Admin itself is licensed under the Apache License 
+SB Admin itself is licensed under the Apache License
 https://github.com/IronSummitMedia/startbootstrap-sb-admin/blob/gh-pages/LICENSE
