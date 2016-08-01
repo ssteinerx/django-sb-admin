@@ -6,8 +6,8 @@ module.exports = function(grunt) {
     bower_concat: {
       all: {
         dest: {
-          'js':  'django_sb_admin/static/js/_bower.js',
-          'css': 'django_sb_admin/static/css/_bower.css',
+          'js':  'django_sb_admin_ssx/static/js/_bower.js',
+          'css': 'django_sb_admin_ssx/static/css/_bower.css',
         },
         dependencies:{
           'bootstrap' : 'jquery',
@@ -26,21 +26,22 @@ module.exports = function(grunt) {
       files:[
         {
           src: 'bower_components/bootstrap/dist/fonts/*',
-          dest: 'django_sb_admin/static/fonts/'
+          dest: 'django_sb_admin_ssx/static/fonts/'
         },
         {
           src: 'bower_components/font-awesome/fonts/*',
-          dest: 'django_sb_admin/static/fonts/'
+          dest: 'django_sb_admin_ssx/static/fonts/'
         }]
     }
   });
 
 
-  // Load the plugin that provides the "bower_concat" task.
+  // Load the plugins that provides the "bower_concat" and "copy" tasks.
   grunt.loadNpmTasks('grunt-bower-concat');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('default', ['bower_concat']);
+  grunt.registerTask('default', ['bower_concat', 'copy']);
 };
 
 // Load the plugin that provides the "uglify" task.

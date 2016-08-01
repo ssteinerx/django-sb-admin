@@ -1,5 +1,5 @@
 {
-  "name": "django-sb-admin-ssteinerX",
+  "name": "django-sb-admin-ssx",
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "^1.0.0",
@@ -7,6 +7,7 @@
     "grunt-contrib-jshint": "*",
     "grunt-contrib-nodeunit": "*",
     "grunt-contrib-uglify": "*",
+    "grunt-contrib-copy": "*",
     "grunt-sass": "^1.2.0",
     "load-grunt-tasks": "^3.5.0"
   }
