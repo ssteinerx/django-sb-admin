@@ -102,4 +102,8 @@ webpack-stats.json
 # Compass/SASS
 .sass-cache
 
+# PyCharm
+.idea
 
+# Bower
+bower_components
