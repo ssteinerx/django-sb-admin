@@ -27,7 +27,7 @@
     "font-awesome": "^4.6.3"
   },
 
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.6.3",
     "flot": "git@github.com:ssteinerx/flot.git#^0.8.4",
